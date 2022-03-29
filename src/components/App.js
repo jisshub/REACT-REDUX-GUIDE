@@ -1,6 +1,7 @@
 import './App.css';
 import {selectSong} from '../actions';
 import SongList from './SongList';
+import SongDetail from './SongDetail';
 
 function App() {
   return (
@@ -9,9 +10,13 @@ function App() {
         <div className='column eight wide'>
           <SongList />
         </div>
+        <div className='column eight wide'>
+          <SongDetail />
+        </div>
       </div>
     </div>
   );
 }
 
 export default App;
+
